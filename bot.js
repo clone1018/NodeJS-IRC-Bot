@@ -12,16 +12,16 @@ var sys = require('util'),
  * Config
  */
 var config = {
-	host:		'irc.freenode.com',
+	host:		'bots.esper.net',
 	port:		6667,
-	nick:		'NodeBot',
-	username:	'NodeBot',
-	realname:	'Powered by Michael Owens',
-	channels:	['#nodejs'],
+	nick:		'SexBot',
+	username:	'SexBot',
+	realname:	'SexBot',
+	channels:	['#risucraft'],
 	command:	'.',
 	debug:		false,
 
-	plugins:	['global', 'reload', 'gezien', 'textfilter']
+	plugins:	['global', 'reload']
 };
 
 /**
